@@ -1,0 +1,76 @@
+body {
+  background-color: #8e9be0;
+  font-family: Garamond, serif;
+  color: #a390d7;
+  font-size: 25px;
+  line-height: 1;
+}
+h1 {
+  color: rgb(250, 240, 106);
+  font-family: 'Brush Script MT', cursive;
+}
+h2 {
+  color:rgb(250, 204, 106);
+  font-family: 'FreeMono', monospace
+}
+h3 {
+  color:rgb(236, 210, 153);
+  font-family: 'American Typewriter', serif
+}
+
+ul {
+  color:rgb(255, 214, 117);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline > li {
+  list-style: none;
+  padding-left: 0px;
+  width: 100%;
+}
+li:hover {
+  color:rgb(255, 255, 255);
+
+}
+
+.container {
+  background-color: #a4aee5;
+  max-width: 700;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card {
+max-width: 1400px;
+margin: 20 auto;
+padding: 20px;
+background-color: #000000;
+text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
